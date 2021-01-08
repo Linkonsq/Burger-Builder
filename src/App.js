@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Layout from './components/Layout/Layout';
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 
 // function App() {
 //   return (
@@ -14,7 +15,7 @@ class App extends Component {
     return (
       <div>
         <Layout>
-          <h1>Hello World!</h1>
+          <BurgerBuilder />
         </Layout>
       </div>
     );
